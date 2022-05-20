@@ -4,6 +4,7 @@ Frontend clone
 ```bash 
 git clone -b frontend-template https://github.com/Vfunnyguy/custom-web-template.git
 ```
+Backend clone
 ```bash 
 git clone -b backend-template https://github.com/Vfunnyguy/custom-web-template.git
 ```
