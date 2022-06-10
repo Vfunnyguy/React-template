@@ -8,7 +8,7 @@
     "dev": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production"
   },
-    "author": "Nguyễn Hoàng Việt <https://github.com/Vfunnyguy>",
+ 
 
    "dependencies": {
     "@fluentui/react": "^8.67.2",
