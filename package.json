@@ -4,8 +4,8 @@
   "author": "Việt Nguyễn <nghoangviet2000@hotmail.com>",
   "license": "Mozilla Public License Version 2.0",
   "scripts": {
-    "dev": "tsc -w",
-    "build": "nodemon dist/index.js"
+    "xem": "tsc -w",
+    "start": "nodemon dist/index.js"
 
   }
 }
