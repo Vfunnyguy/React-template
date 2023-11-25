@@ -1,13 +1,9 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import {Provider}from 'react-redux';
+
+import { createRoot } from 'react-dom/client';
 import './styles/Css/index.css'
 import './styles/Sass/style.scss'
-import App from './App'
-
-ReactDOM.render(
-    <React.StrictMode>
-    <App/>
-    </React.StrictMode>,
-    document.getElementById("root")
-)
+import App from './App.jsx'
+const app=document.getElementById('root')
+const root=createRoot(app)
+root.render(<App/>)
